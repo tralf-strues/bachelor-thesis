@@ -1,0 +1,29 @@
+{
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (lualatex)",
+      "tools": [
+        "lualatexmk",
+      ]
+    },
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=0",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-lualatex",
+        "-auxdir=%OUTDIR%/.build",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+  ],
+  "cSpell.language": "en,ru",
+  "cSpell.words": [
+  ]
+}
