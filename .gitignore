@@ -1,3 +1,6 @@
 /*.pages
 .DS_Store
 /.build/
+/signed_docs/
+/unsigned_docs/
+/images/drawio_sources/*.bkp
